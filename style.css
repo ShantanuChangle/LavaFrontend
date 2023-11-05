@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    font-family: gilroy;
+
+}
+
+#main{
+    position: relative;
+    width: 100%;
+}
+
+#longpage{
+    position: relative;
+    height: 180vh;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp6640198.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+}
+
+#nleft{
+    height: 100%;
+    width: 50%;
+}
+
+#nleft h1{
+    font-size: 150px;
+    font-weight: 800;
+    color: #0F1F2C;
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+#nright{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 12%;
+}
+
+#nright a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px;
+    letter-spacing: 2px;
+}
+
+#nright #one{
+    border: 4px solid white;
+}
+
+#text{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    height: 500px;
+    width: 500px;
+    padding-top: 170px;
+}
+
+#text h1{
+    font-size: 250px;
+    font-weight: 700;
+    color: white;
+}
+
+#text h2{
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(36, 165, 216);
+}
+
+#text h6{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%,0);
+    font-size: 500px;
+    font-weight: 50;
+    color: white;
+}
+
+#text2{
+    position: absolute;
+    bottom: 4%;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+#text2 h1{
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#text2 h2{
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.6;
+    color: white;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#text2 p{
+    font-size: 25px;
+    font-weight: 350px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    /* padding-top: 20px; */
+}
+
+#text2 h6{
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 400px;
+    font-weight: 50;
+    color: white;
+    opacity: 0.5;
+}
+
+#page2{
+    height: 120vh;
+    width: 100%;
+    background-color: #393939;
+}
+
+#text3{
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#text3 h1{
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#text3 h2{
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.6;
+    color: white;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#text3 h6{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 400px;
+    font-weight: 50;
+    color: white;
+    opacity: 0.5;
+}
+
+#cards{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 80vh;
+    /* background-color: #fff; */
+}
+
+.card{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width: 22%;
+    background-color: black;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    scale: 1;
+    box-shadow: 10px 0px 10px 5px rgba(27, 26, 26, 0.638);
+}
+
+.card img:hover{
+    scale: 1.2;
+}
+
+#two{
+    left: 23%;
+}
+
+#two h2{
+    left: 50%;
+}
+
+#three{
+    left: 77%;
+}
+
+#three  h2{
+    left: 50%;
+}
+
+.card h1{
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.card h2{
+    position: absolute;
+    bottom: 9%;
+    left: 48%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card h6{
+    position: absolute;
+    bottom: -3%;
+    left: 49%;
+    transform: translate(-50%,0);
+    font-size: 100px;
+    font-weight: 50;
+    color: white;  
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+}
+
+#upper{
+    position: relative;
+    padding-top: 5%;
+    height: 60vh;
+    width: 100%;
+    background-color: #2E2E2E;
+    text-align: center;
+}
+
+#upper h1{
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#upper h2{
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.6;
+    color: white;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#upper input{
+    position: absolute;
+    left: 1.4%;
+    top: 60%;
+    padding: 15px 80px;
+    background-color:#393939bb;
+    border-color: #3939394c;
+    color: white;
+}
+
+#upper button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    scale: 1;
+}
+
+#upper button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    border-color: black;
+}
+
+#lower{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    background-color: #393939;
+}
+
+#left{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+#left h1{
+    font-size: 150px;
+    font-weight: 800;
+    color: white;
+    padding-left: 120px;
+    padding-top: 130px;
+}
+
+#right{
+    padding-top: 10%;
+    padding-left: 13%;
+    height: 100%;
+    width: 50%;
+}
+
+#right a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
